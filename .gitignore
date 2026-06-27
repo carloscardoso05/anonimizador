@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 *.pyc
+arquivo.pdf
+main.ipynb
+r.py
