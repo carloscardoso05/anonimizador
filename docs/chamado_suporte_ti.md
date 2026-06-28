@@ -1,6 +1,6 @@
 # Chamado de Suporte de TI
 
-**Empresa:** Acme Corp Brasil — CNPJ 12.345.678/0001-90
+**Empresa:** Acme Corp Amazônia — CNPJ 12.345.678/0001-90
 
 ---
 
@@ -10,11 +10,11 @@ Nome: **Maria Oliveira Lima**
 
 Cargo: Analista Administrativo Pleno
 
-Lotação: **Filial Zona Sul — Avenida das Américas, 500, Barra Fictícia — SP**
+Lotação: **Filial Belém — Travessa Dom Romualdo de Seixas, 500, Umarizal, Belém — PA**
 
 E-mail: **maria.oliveira@acmecorp.exemplo.com.br**
 
-Ramal: **(11) 3000-1111**
+Ramal: **(91) 3000-1111**
 
 ---
 
@@ -28,4 +28,4 @@ Já tentei redefinir a senha, mas o e-mail de recuperação está vinculado ao m
 
 ## Contato Alternativo
 
-Meu número pessoal para verificação: **(11) 98888-7777**
+Meu número pessoal para verificação: **(91) 98888-7777**
