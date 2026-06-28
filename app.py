@@ -27,11 +27,14 @@ def load_nlp():
 
 def detect(texto, pagina, nlp):
     achados = []
-    for ent in nlp(texto).ents:
-        if ent.label_ in NER:
-            achados.append(
-                {"texto": ent.text.strip(), "cat": NER[ent.label_], "pagina": pagina}
-            )
+    for linha in texto.split("\n"):
+        if not linha.strip():
+            continue
+        for ent in nlp(linha).ents:
+            if ent.label_ in NER:
+                achados.append(
+                    {"texto": ent.text.strip(), "cat": NER[ent.label_], "pagina": pagina}
+                )
     for cat, pat in PATTERNS.items():
         for m in pat.finditer(texto):
             achados.append({"texto": m.group().strip(), "cat": cat, "pagina": pagina})
