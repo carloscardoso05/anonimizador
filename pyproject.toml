@@ -1,0 +1,16 @@
+[project]
+name = "anonimizador"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pt-core-news-lg",
+    "pymupdf>=1.28.0",
+    "pymupdf-stubs>=1.25.5",
+    "spacy>=3.8.13",
+    "streamlit>=1.58.0",
+]
+
+[tool.uv.sources]
+pt-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/pt_core_news_lg-3.8.0/pt_core_news_lg-3.8.0-py3-none-any.whl" }
